@@ -159,7 +159,7 @@ section .container{
     padding: 40px 0;
 }
 section:nth-child(2n){
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }   
 .col-big{
     height: 500px;
@@ -169,9 +169,12 @@ section:nth-child(2n){
     height: 500px;
     width: 40%;
 }
-.col-biggest{
-    height: 800px;
-    width: 100%;
+.col-biggest p{
+    text-align: center;
+    font-size: 16px; 
+}
+.col-biggest h2{
+    text-align: center;
 }
 
 /* footer */
