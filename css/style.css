@@ -58,10 +58,21 @@
    max-width: 1200px;
    margin: auto;    
 }
+/* buttons */
+.btn{
+    border-radius: 5px;
+}
+
 
 /* header */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    
+}
 .top-background{
     padding: 16px 0;
+    
 }
 
 .header-top{
@@ -79,15 +90,14 @@
 }
 .main-nav ul li a{
     text-decoration: none;
-    color: inherit;
+    color: white;
+
 }
 .login{
-    border-left-style: dashed;
     width: 20%;
     text-align: end;
 }
 header .logo{
-    border-right-style: dashed;
     width: 20%;
 }
 .bottom-background{
@@ -95,6 +105,18 @@ header .logo{
 }
 .hero{
     margin: auto;
+    text-align: center;
+    max-width: 900px;
+    height: 400px;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    margin-top: 60px;
+}
+p{
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 /* main */
