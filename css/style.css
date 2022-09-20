@@ -184,6 +184,9 @@ section .container{
 }
 section:nth-child(2n){
     background-color: #F6F6F6;
+}
+section:nth-child(2n)::before{
+    background-image: url(../img/wave.svg);
 }  
 .col-big{
     height: 500px;
