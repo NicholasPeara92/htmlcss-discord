@@ -108,14 +108,14 @@ ul{
     color: #23272A;
     border: 2px solid white;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .hero2{
     background-color: #23272A;
     color: white;
     border: 2px solid #23272A;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .col-biggest .hero1{
     max-width: 160px;
@@ -131,13 +131,10 @@ ul{
     background-color: #7289DA;
     color: white;
 }
-
-
 /* header */
 header{
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    
+    background-size: cover;   
 }
 .top-background{
     padding: 16px 0;
@@ -161,7 +158,6 @@ header{
 .main-nav ul li a{
     text-decoration: none;
     color: white;
-
 }
 .login{
     margin-left: 63px;
@@ -188,7 +184,7 @@ section .container{
 }
 section:nth-child(2n){
     background-color: #F6F6F6;
-}   
+}  
 .col-big{
     height: 500px;
     width: 60%;
@@ -196,6 +192,7 @@ section:nth-child(2n){
 .col-small{
     height: 500px;
     width: 40%;
+    color: #23272A;
 }
 .col-biggest p{
     text-align: center;
@@ -210,11 +207,8 @@ section:nth-child(2n){
     background-position: center;
     max-width: 531px;
     margin: auto;
-    margin-top: 40px;
-    
+    margin-top: 40px;   
 }
-
-
 /* footer */
 footer{
     background-color: #23272a;
@@ -225,8 +219,7 @@ footer{
 }
 .footer-top{
     display: flex;
-    padding: 60px 0 30px 0;
-    
+    padding: 60px 0 30px 0;    
 }
 .col-first{
     
