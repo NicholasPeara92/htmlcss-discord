@@ -86,7 +86,7 @@ ul{
     list-style: none;
 }
  footer li{
-    padding: 10px 0;
+    padding: 7px 0;
     font-size: 12px;
 }
 /* buttons */
@@ -222,7 +222,7 @@ footer{
     padding: 60px 0 30px 0;    
 }
 .col-first{
-    
+    padding-left: 180px;
     width: calc(100% / 3);
 }
 footer i{
