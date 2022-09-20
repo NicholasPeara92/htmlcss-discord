@@ -80,8 +80,14 @@ p{
     margin-top: 30px;
 }
 a{
-    text-decoration: none;
-    
+    text-decoration: none;   
+}
+ul{
+    list-style: none;
+}
+ footer li{
+    padding: 10px 0;
+    font-size: 12px;
 }
 /* buttons */
 .btn{
@@ -120,6 +126,10 @@ a{
     font-size: 16px;
     margin-top: 30px;
     margin-bottom: 60px;
+}
+.registrati .btn{
+    background-color: #7289DA;
+    color: white;
 }
 
 
@@ -219,14 +229,14 @@ footer{
     
 }
 .col-first{
-    height: 500px;
+    
     width: calc(100% / 3);
 }
 footer i{
     margin: 10px 10px 0 0;
 }
 .col-second{
-    height: 500px;
+    
     width: calc(100% / 6);
 }
 .footer-bottom{
@@ -236,20 +246,14 @@ footer i{
     padding: 16px 0;
     margin-top: 20px;
 }
-.logo-footer{
-    width: 70px;
-    height: 35px;
-    background-color: #ffb6c1;
-    text-align: center;
-    padding: 7px;
-    border-style: dashed;
-    
+footer a{
+    color: white;
 }
-.bottone{
-    width: 70px;
-    height: 35px;
-    background-color: #ffb6c1;
-    text-align: center;
-    padding: 7px;
-    border-style: dashed;
+.col-second ul:first-child{
+    color: #7289DA;
+}
+hr{
+    max-width: 1200px;
+    margin: auto;
+    border-color: #7289DA;
 }
