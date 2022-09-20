@@ -58,9 +58,50 @@
    max-width: 1200px;
    margin: auto;    
 }
+h1{
+    font-size: 44px;
+    margin-top: 60px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 34px;
+}
+    
+p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    
+}
 /* buttons */
 .btn{
-    border-radius: 5px;
+    border-radius: 25px;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+.login .btn{
+    background-color: white;
+}
+.button-hero{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.hero1{
+    background-color: white;
+    color: #23272A;
+    border: 2px solid white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.hero2{
+    background-color: #23272A;
+    color: white;
+    border: 2px solid #23272A;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 
@@ -84,6 +125,7 @@ header{
 .main-nav ul{
     list-style: none;
     display: flex;
+
 }
 .main-nav ul li{
     margin: 0 10px;
@@ -94,14 +136,12 @@ header{
 
 }
 .login{
-    width: 20%;
-    text-align: end;
+    margin-left: 63px;
+    
 }
-header .logo{
-    width: 20%;
-}
+    
 .bottom-background{
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .hero{
     margin: auto;
@@ -109,14 +149,7 @@ header .logo{
     max-width: 900px;
     height: 400px;
     color: white;
-}
-h1{
-    font-size: 40px;
-    margin-top: 60px;
-}
-p{
-    font-size: 18px;
-    margin-top: 30px;
+    margin-top: 120px;
 }
 
 /* main */
