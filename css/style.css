@@ -43,6 +43,9 @@ ul{
     padding: 7px 0;
     font-size: 12px;
 }
+.img-fluid{
+    max-width: 100%;
+}
 /* buttons */
 .btn{
     border-radius: 40px;
