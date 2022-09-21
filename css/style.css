@@ -87,8 +87,7 @@ ul{
 }
 /* header */
 header{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;   
+    background-color: #255EE9;
 }
 .top-background{
     padding: 16px 0;
@@ -104,7 +103,7 @@ header{
 .main-nav ul{
     list-style: none;
     display: flex;
-
+    
 }
 .main-nav ul li{
     margin: 0 10px;
@@ -117,8 +116,11 @@ header{
     margin-left: 63px;
     
 }
-    
+
 .bottom-background{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;  
     padding: 40px 0;
 }
 .hero{
