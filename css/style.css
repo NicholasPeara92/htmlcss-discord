@@ -31,6 +31,7 @@ h4{
 p{
     font-size: 18px;
     margin-top: 30px;
+    line-height: 1.6em;
 }
 a{
     text-decoration: none;   
@@ -192,18 +193,18 @@ footer{
 }
 .footer-top{
     display: flex;
-    padding: 60px 0 30px 0;    
+    padding: 60px 0 30px 0;
+    justify-content: space-between;    
 }
 .col-first{
-    padding-left: 180px;
-    width: calc(100% / 3);
+    width: 290px;
 }
 footer i{
     margin: 10px 10px 0 0;
 }
 .col-second{
     
-    width: calc(100% / 6);
+    width: calc(666px / 4);
 }
 .footer-bottom{
     display: flex;
